@@ -15,6 +15,9 @@ def rock_paper_scissors(n):
   result.append([options[i]])
   n -= 1
   i =+ 1
+  # while, some conditional:
+  # j = i(maybe n, or len(options))
+  # result[j].append(options[i])
 
  return result
 
