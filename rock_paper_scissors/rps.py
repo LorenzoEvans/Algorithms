@@ -4,6 +4,9 @@ import sys
 
 def rock_paper_scissors(n):
  options = ['rock', 'paper', 'scissors']
+ base_case = 1
+ while n > base_case:
+  
 
 
 if __name__ == "__main__":
