@@ -3,9 +3,21 @@
 import argparse
 
 def find_max_profit(prices):
-  pass
+  max_prof = 0
+  cur_max_price = 0
+  cur_min_price = 0
+  
+  # So we want to loop through prices, and keep track of which one is the highest
+  # once 
+  for i in prices:
+    if i > cur_max_price:
+      cur_max_price = i
+  for i in prices:
+    if i < cur_max_price: #while?
+      print(0)
+  # return cur_max_price
 
-
+print(find_max_profit([10, 7, 5, 8, 11, 9]))
 if __name__ == '__main__':
   # This is just some code to accept inputs from the command line
   parser = argparse.ArgumentParser(description='Find max profit from prices.')
